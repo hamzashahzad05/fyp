@@ -1,0 +1,149 @@
+
+.topcollections_holder .trending_nft_holder h3{font-size: 32px;color: #ffffff;margin: 0;padding: 0;font-family: 'PoppinsSemiBold';}
+.nfts_clss{color: #837298;font-family: 'PoppinsRegular';position: relative;}
+.nfts_clss::before {position: absolute;content: "";width: 254px;height: 8px;background: #fd5492;background: -moz-linear-gradient(top,  #fd5492 0%, #f86f64 100%);background: -webkit-linear-gradient(top,  #fd5492 0%,#f86f64 100%);background: linear-gradient(to bottom,  #fd5492 0%,#f86f64 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd5492', endColorstr='#f86f64',GradientType=0 );bottom: -11px;right: -25px;}
+.trending_nft_holder{position: absolute;bottom: 0;}
+.topcollectionslist_item_holder .ethereum_holder {margin-right: 14px;}
+.topcollections_heading .total_volume{position: absolute;top: 40px;left: 50%;transform: translateX(-50%);}
+.topcollections_heading .total_volume h3{ padding-top: 22px;font-size: 17px;color: #6e6976;font-family: 'PoppinsRegular';margin: 0;}
+.topcollectionslist_item_holder .ethereum_holder h3{ padding-right: 50px; z-index: 7; font-size: 16px;color: #e2e1e4;font-family: 'PoppinsRegular';margin: 0;}
+.topcollectionslist_item_holder .ethereum_holder::before{left: 50%;transform: translateX(-50%); border-radius: 17px; position: absolute;content: ""; width: 200px;height: 53px;background-color: #281d33;}
+.topcollectionslist_item_holder{align-items: center;}
+.topcollectionslist_item_holder .ethereum_holder{align-items: center;}
+.topcollections_holder{padding-top: 94px;padding-bottom:112px;}
+.topcollections_heading h3{font-size: 32px;margin: 0;color: #6e5f81;font-family: 'PoppinsSemiBold';}
+.top{font-size: 32px;font-family: 'PoppinsSemiBold';color: #c2c0c5;position: relative;}
+.top::before{position: absolute;content: "";width:150px;height: 8px;bottom: -20px;background: #fd5492;background: -moz-linear-gradient(top,  #fd5492 0%, #f86f64 100%);background: -webkit-linear-gradient(top,  #fd5492 0%,#f86f64 100%);background: linear-gradient(to bottom,  #fd5492 0%,#f86f64 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd5492', endColorstr='#f86f64',GradientType=0 );}
+.arrow_down{color: wheat;margin-left: 10px;font-size: 20px;z-index: 7;}
+.topcollectionslist_item{display: flex;align-items: center;}
+.topcollections_holder .nav-tabs{border-bottom: none;display: flex;justify-content: center;margin-bottom: 100px;}
+.topcollections_holder .nav-tabs .nav-link.active{background-color: #4e217a;color:#d0c4dc;}
+.topcollections_holder .nav-tabs{position: relative;}
+.topcollections_holder .nav-tabs::before{position: absolute;content: "";width:412px;height: 60px; background-color: #281d33;top: -8px;z-index: -7;border-radius: 17px;}
+.topcollections_holder .nav-tabs .nav-link{border-radius: 17px; border: none;color: #9f99a9;padding: 10px 28px;margin-left: 18px;margin-right: 18px;}
+.active_tabtext_holder ul {position: relative; margin: 0;padding: 0;list-style: none;column-count: 3;}
+.active_tabtext_holder ul li{display: flex;}
+.sml_im_holder{width: 63px;height: 63px; margin-right: 1.5rem;}
+.sml_img_list_item{align-items: center;margin-bottom: 27px;}
+.sml_im_holder img{border-radius:16px;width: 100%;height: 100%;}
+.active_tabtext_holder .floor_htag{font-size: 24px;color: #ffffff;font-family: 'PoppinsSemiBold';}
+.floor_text{display: block;color: #635c6f;font-family: 'PoppinsRegular';width: 145px;font-size: 16px;}
+.active_tabtext_holder .calculation_htag{font-size: 16px;color: #ffffff;font-family: 'PoppinsSemiBold';text-align: end;}
+.active_tabtext_holder .gray_content{display: block;color: #635c6f;font-family: 'PoppinsRegular';}
+.active_tabtext_holder .green_content{color: #49de18;}
+.num{display: flex;justify-content: center;align-items: center; width: 25px;height:25px; color:#ffffff;font-size: 24px;font-family: 'PoppinsRegular';}
+.topcollections_holder .btn_viewcollection{font-size: 16px;font-family: 'PoppinsMediom'; color: #d2487e; border-radius: 17px; text-decoration: none;width: 298px;height: 69px;display: flex;justify-content: center;align-items: center;border: 3px solid #d2487e;}
+.topcollections_holder .btn_viewcollection:hover{transition: all ease-in-out 0.3s;background-color: #d2487e;color:#ffffff; border:3px solid #ffffff;}
+.btn_view_collection_holder{display: flex;justify-content: center;}
+@media screen and (max-width:1399px){
+    .topcollections_holder{padding-bottom: 100px;}
+    .nfts_clss::before {width: 217px;height: 7px;right: -18px;}
+    .topcollections_holder .trending_nft_holder h3 {font-size: 28px;}
+    .num{font-size: 18px;width: 21px;height: 21px;}
+    .active_tabtext_holder .calculation_htag {font-size: 15px;}
+    .active_tabtext_holder .floor_htag{font-size: 15px;}
+    .active_tabtext_holder .floor_text{font-size: 15px;}
+    .sml_im_holder{width: 58px;height: 58px;}
+    .sml_im_holder img{width: 100%;height: 100%;}
+    .topcollections_holder .nav-tabs{margin-bottom: 100px;}
+    .topcollectionslist_item_holder .ethereum_holder h3 {padding-right: 40px;}
+    .topcollectionslist_item_holder .ethereum_holder::before {width: 168px;height: 47px;}
+    .topcollections_heading h3 {font-size: 28px;}
+    .top {font-size: 28px;}
+    .top::before {width: 140px;height: 6px;bottom: -15px;}
+    .arrow_down {font-size: 17px;}
+    .topcollections_holder .btn_viewcollection {width: 235px;height: 51px;}
+}
+
+@media screen and (max-width:1199px){
+    .topcollections_holder {padding-top: 71px;padding-bottom: 80px;}
+    .topcollections_holder .trending_nft_holder h3 {font-size: 22px;}
+    .nfts_clss::before {width: 173px;height: 5px;}
+    .arrow_down {margin-left: 6px;font-size: 16px;}
+    .top::before {width: 127px;height: 5px;bottom: -14px;}
+    .topcollections_holder .nav-tabs{margin-bottom: 70px;}
+    .active_tabtext_holder ul {column-count: 2;}
+    .sml_img_list_item{justify-content: space-between;margin-bottom: 14px;}
+    .topcollections_holder .nav-tabs .nav-link {padding: 6px 22px;margin-left: 9px;margin-right: 9px;border-radius: 15px;}
+    .topcollections_holder .nav-tabs::before {width: 348px;height: 52px;}
+    .sml_im_holder {width: 50px;height: 50px;}
+    .sml_im_holder img{width: 100%;height: 100%;}
+    .active_tabtext_holder .calculation_htag {font-size: 14px;}
+    .active_tabtext_holder .floor_htag {font-size: 14px;}
+    .active_tabtext_holder .floor_text {font-size: 14px;}
+    .num{font-size: 17px;width: 20px;height: 20px;}
+    .topcollections_heading h3 {font-size: 22px;}
+    .top {font-size: 22px;}
+    .top::before {width: 130px;height: 5px;bottom: -14px;}
+    .topcollectionslist_item_holder .ethereum_holder h3 {font-size: 14px; padding-right: 30px;}
+    .topcollectionslist_item_holder .ethereum_holder::before {width: 140px;height: 40px;}
+    .topcollections_holder .btn_viewcollection {width: 185px;height: 40px;font-size: 14px;border-radius: 12px;}
+}
+@media screen and (max-width:991px){
+    .btn_view_collection_holder {bottom: -80px;}
+    .active_tabtext_holder {margin-bottom: 22px;}
+    .topcollections_holder {padding-top: 28px;padding-bottom: 50px;}
+    .nfts_clss::before {right: -5px;bottom: -8px; width: 127px; height: 4px;}
+    .topcollections_holder .trending_nft_holder h3 {font-size: 17px;}
+    .topcollections_holder .nav-tabs .nav-link {padding: 4px 14px;margin-left: 6px;margin-right: 6px;border-radius: 12px;}
+    .topcollections_holder .nav-tabs::before {width: 287px;height: 48px;}
+    .top {font-size: 18px;}
+    .topcollections_heading h3 {font-size: 17px;}
+    .arrow_down {margin-left: 4px;font-size: 14px;}
+    .top::before {width: 90px;height: 4px;bottom: -11px;}
+    .topcollectionslist_item_holder .ethereum_holder h3 {font-size: 13px;padding-right: 18px;}
+    .topcollectionslist_item_holder .ethereum_holder::before {width: 120px;height: 36px;border-radius: 12px;}
+    .topcollections_heading .total_volume h3 {font-size: 14px;}
+    .topcollections_holder .btn_viewcollection {width: 165px;height: 36px;font-size: 12px;border-radius: 11px;border: 2px solid #d2487e;}
+    .topcollections_holder .btn_viewcollection:hover{border:2px solid #ffffff;}
+}
+@media screen and (max-width:767px){
+    .topcollections_holder .btn_viewcollection {width: 140px;height: 30px;border-radius: 7px;}
+    .active_tabtext_holder ul {column-count: 1;padding: 0 20px;}
+    .topcollections_holder .nav-tabs .nav-link {padding: 3px 9px;margin-left: 3px;margin-right: 3px;font-size: 14px;}
+    .topcollections_holder .nav-tabs::before {width: 222px;height: 43px;}
+    .sml_im_holder img{border-radius:12px;}
+    .tab_holder {padding-top: 40px;}
+    .topcollections_heading .total_volume{top: 60px;}
+    .topcollectionslist_item_holder {padding: 0 16px;}
+    .calculation{display: block;}
+}
+@media screen and (max-width:600px){
+    .trending_nft_holder{left: 50%; transform: translateX(-50%);}
+}
+@media screen and (max-width:433px){
+    .top::before {width: 82px;height: 3px;bottom: -9px;}
+    .top {font-size: 16px;}
+    .topcollectionslist_item_holder .ethereum_holder::before {width: 100px;height: 30px;border-radius: 10px;}
+    .topcollectionslist_item_holder .ethereum_holder h3 {font-size: 12px;padding-right: 5px;}
+    .topcollections_heading .total_volume h3 {font-size: 12px;}
+    .active_tabtext_holder .calculation_htag {font-size: 13px;}
+    .active_tabtext_holder .floor_htag {font-size: 13px;}
+    .active_tabtext_holder .floor_text {font-size: 13px;}
+    .sml_im_holder {width: 45px;height: 45px;}
+    .num {font-size: 14px;width: 17px;height: 17px;}
+    .sml_im_holder img{border-radius:10px;}
+    .btn_viewcollection {width: 185px;height: 40px;border-radius: 16px; }
+}
+@media screen and (max-width:378px){
+    .trending_nft_holder h3 {font-size: 16px;}
+    .topcollectionslist_item_holder {flex-direction: column;}
+    .active_tabtext_holder .calculation_htag {font-size: 12px;}
+    .active_tabtext_holder .floor_htag {font-size: 12px;width: 113px;}
+    .active_tabtext_holder .floor_text {font-size: 12px;width: 113px;}
+    .sml_im_holder {width: 40px;height: 40px;}
+    .num {font-size: 12px;width: 14px;height: 14px;}
+    .active_tabtext_holder ul {padding: 0 4px;}
+    .topcollectionslist_item_holder .ethereum_holder {padding-top: 24px;}
+}
+@media screen and (max-width:300px){
+    .sml_im_holder img{border-radius:7px;}
+    .active_tabtext_holder .floor_htag {font-size: 11px;width: 104px;}
+    .active_tabtext_holder .floor_text {font-size: 11px;width: 101px;}
+    .active_tabtext_holder .calculation_htag {font-size: 11px;}
+    .num {font-size: 11px;width: 12px;height: 12px;}
+    .topcollections_holder .nav-tabs .nav-link {padding: 2px 5px;margin-left: 2px;margin-right: 2px;border-radius: 7px;font-size: 12px;}
+    .topcollections_holder .nav-tabs::before {width: 170px;height: 38px;border-radius: 7px;}
+    .btn_viewcollection {width: 168px;height: 40px;font-size: 12px;border-radius: 14px;}
+
+}

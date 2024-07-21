@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "760089497633",
+    "project_id": "prado-car-game",
+    "storage_bucket": "prado-car-game.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760089497633:android:6bdc3352b46473c09c5360",
+        "android_client_info": {
+          "package_name": "com.splashgames.parado.car.parking.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760089497633-gbj5hrr4m4k0qo332ol5gq27ol8ad29h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsRG1TaMYDXw-IYb4sIeEhP-2HoegkwA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760089497633-gbj5hrr4m4k0qo332ol5gq27ol8ad29h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
