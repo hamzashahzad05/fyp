@@ -1,23 +1,23 @@
-import { useRef } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
-  const email = useRef(null)
-  const password = useRef(null)
+  const email = useRef(null);
+  const password = useRef(null);
 
   const handleSubmit = (e) => {
-    e.preventDefault()
+    e.preventDefault();
 
-    const emailValue = email.current.value
-    const passwordValue = password.current.value
-    console.log(emailValue)
-    console.log(passwordValue)
+    const emailValue = email.current.value;
+    const passwordValue = password.current.value;
+    console.log(emailValue);
+    console.log(passwordValue);
 
-    localStorage.setItem('auth_token', emailValue)
-    navigate('/')
-  }
+    localStorage.setItem("auth_token", emailValue);
+    navigate("/");
+  };
 
   return (
     <div className="card shadow">
@@ -59,11 +59,15 @@ const Login = () => {
             <button type="submit" className="btn btn-sm btn-primary btn-block">
               Login
             </button>
+            <button type="submit" className="btn btn-sm btn-dark btn-block">
+              Sign up
+              <link href="/regsiter"></link>
+            </button>
           </div>
         </form>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;

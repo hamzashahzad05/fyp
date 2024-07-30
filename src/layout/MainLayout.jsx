@@ -1,12 +1,12 @@
-import { Outlet } from 'react-router-dom'
-import Header from '../Components/Header/Header'
-import Footer from '../Components/Footer/Footer'
-import { isLoggedIn } from '../helpers'
-import { Navigate } from 'react-router-dom/dist'
+import { Outlet } from "react-router-dom";
+import Header from "../Components/Header/Header";
+import Footer from "../Components/Footer/Footer";
+import { isLoggedIn } from "../helpers";
+import { Navigate } from "react-router-dom";
 
 const MainLayout = () => {
   if (!isLoggedIn()) {
-    return <Navigate to="/login" />
+    return <Navigate to="/login" />;
   }
 
   return (
@@ -17,7 +17,7 @@ const MainLayout = () => {
 
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default MainLayout
+export default MainLayout;

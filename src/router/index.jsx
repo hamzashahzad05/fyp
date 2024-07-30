@@ -1,13 +1,13 @@
-import { Route } from 'react-router-dom/dist'
-import { Routes } from 'react-router-dom/dist'
-import { BrowserRouter } from 'react-router-dom/dist'
+import { Route } from "react-router-dom";
+import { Routes } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
-import AuthLayout from '../layout/AuthLayout'
-import MainLayout from '../layout/MainLayout'
+import AuthLayout from "../layout/AuthLayout";
+import MainLayout from "../layout/MainLayout";
 
-import Login from '../pages/Login'
-import Register from '../pages/Register'
-import Home from '../pages/Home'
+import Login from "../pages/Login";
+import Register from "../pages/Register";
+import Home from "../pages/Home";
 
 const Router = () => {
   return (
@@ -23,7 +23,7 @@ const Router = () => {
         </Route>
       </Routes>
     </BrowserRouter>
-  )
-}
+  );
+};
 
-export default Router
+export default Router;
