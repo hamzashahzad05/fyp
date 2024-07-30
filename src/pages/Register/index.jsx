@@ -1,21 +1,21 @@
-import { useRef } from "react";
+import { useRef } from 'react'
 
 const Register = () => {
-  const email = useRef(null);
-  const password = useRef(null);
-  const phnumber = useRef(null);
+  const email = useRef(null)
+  const password = useRef(null)
+  const phnumber = useRef(null)
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
-    const emailValue = email.current.value;
-    const passwordValue = password.current.value;
-    const phnumberValue = phnumber.current.value;
+    const emailValue = email.current.value
+    const passwordValue = password.current.value
+    const phnumberValue = phnumber.current.value
 
-    console.log(emailValue);
-    console.log(passwordValue);
-    console.log(phnumberValue);
-  };
+    console.log(emailValue)
+    console.log(passwordValue)
+    console.log(phnumberValue)
+  }
   return (
     <div className="card shadow">
       <div className="card-header">
@@ -54,14 +54,15 @@ const Register = () => {
 
           <div className="mb-3">
             <label htmlFor="phnumber" className="form-label">
-              Phnumber
+              Phone number
             </label>
             <input
               ref={phnumber}
-              type="phnumber"
+              type="tel"
               className="form-control"
               id="phnumber"
-              placeholder="Max 11 Numbers"
+              placeholder="Enter Phone Number"
+              maxLength="11"
               required
             />
           </div>
@@ -74,7 +75,7 @@ const Register = () => {
         </form>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Register;
+export default Register
